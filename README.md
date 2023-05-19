@@ -6,7 +6,7 @@
  
   Java 17 or higher required for installation. 
   
-  Preferred IDE of chooice (Eclipse, Netbeans)
+  Preferred IDE of choice (Eclipse, Netbeans)
   
   Using the software:
   
