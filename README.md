@@ -1,6 +1,6 @@
-# Password-Generator
+ Project Name: Password Generator
 
- Password creator app that allows users to create different passwords. 
+ Description:  Password creator app that allows users to create different passwords. I
 
  Software Requirements:
  
@@ -8,7 +8,6 @@
   
   Preferred IDE of choice (Eclipse, Netbeans)
   
-  Using the software:
+  Using the Software:
   
-  To begin, load the project into your IDE of choice. Next, click on the Password_UI.java file. 
-  This will the launch the program interface. 
+  To begin, load the project into your IDE of choice. Click on the project and export it as a runnable jar file. 
