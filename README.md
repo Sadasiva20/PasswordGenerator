@@ -1,6 +1,6 @@
  Project Name: Password Generator
 
- Description:  Password creator app that allows users to create different passwords. I
+ Description:  Password creator app that allows users to create different passwords.
 
  Software Requirements:
  
