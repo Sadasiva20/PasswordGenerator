@@ -31,7 +31,7 @@ public class Password_UI {
 	  
 public void create_ui() {
     	  
-    	 JFrame  password = new JFrame("JPass");
+    	         JFrame  password = new JFrame("JPass");
 		     
 		 JPanel  panel = new JPanel(new GridLayout(1,3));
 		     
@@ -61,9 +61,9 @@ public void create_ui() {
 		     
 		 panel.add(clear);
 		     
-         panel.add(length);
+                 panel.add(length);
           
-         panel.add(password_len);
+                 panel.add(password_len);
 		     
 		 panel.setSize(400, 400);
 		     
