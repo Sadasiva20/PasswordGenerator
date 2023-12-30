@@ -14,7 +14,7 @@ public static  String create_password() {
     	    
        while(pass.length() <size) {
     	    
-    	    pass.append(Password.uppercase());
+    	            pass.append(Password.uppercase());
 	    	 
 		    pass.append(Password.lowercase());
 		    	 
