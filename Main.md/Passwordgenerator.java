@@ -1,34 +1,47 @@
 package password;
 
+
+
 public class Passwordgenerator {
 	
-private static int size = 0;
+	 private static int size = 0;
 	 
-public static  String create_password() {
+      public Passwordgenerator() {
     	  
-       StringBuilder pass = new StringBuilder();
+	  }
+	   
+
+      public static  String create_password() {
     	  
-       String password = "";
     	    
-       size = Password_UI.get_passwordlen();
+    	    StringBuilder pass = new StringBuilder();
+    	  
+    	    String password = "";
     	    
-       while(pass.length() <size) {
     	    
-    	            pass.append(Password.uppercase());
+    	    String pass_name = "";
+    	    
+    	    size = Password_UI.get_passwordlen();
+    	    
+    	  
+    	    
+    	   while(pass.length() <size ) {
+    	    
+    	         pass.append(Password.uppercase());
 	    	 
-		    pass.append(Password.lowercase());
+		         pass.append(Password.lowercase());
 		    	 
-		    pass.append(Password.numbers());
+		         pass.append(Password.numbers());
 		    	 
-		    pass.append(Password.symbols());
-	    	     
+		         pass.append(Password.symbols());
+		         
     	   }
     	   pass.setLength(size);
     	   
-    	   password = pass.toString();
-
+    	   password =  pass.toString();
+    	   
     	       return password;
-}
+    	  	  }
 }
 
 	
