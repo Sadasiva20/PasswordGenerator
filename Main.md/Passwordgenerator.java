@@ -1,11 +1,17 @@
-package password;
+package Password;
 
-
+import java.util.HashSet;
 
 public class Passwordgenerator {
 	
+	  
+	
+	  
 	 private static int size = 0;
 	 
+	
+	  
+	
       public Passwordgenerator() {
     	  
 	  }
@@ -14,35 +20,41 @@ public class Passwordgenerator {
       public static  String create_password() {
     	  
     	    
-    	    StringBuilder pass = new StringBuilder();
+    	   StringBuilder pass = new StringBuilder();
+    	  
     	  
     	    String password = "";
     	    
-    	    
-    	    String pass_name = "";
-    	    
     	    size = Password_UI.get_passwordlen();
     	    
-    	  
+    	   while(pass.length() <size) {
     	    
-    	   while(pass.length() <size ) {
-    	    
-    	         pass.append(Password.uppercase());
+    	        pass.append(Password.uppercase());
 	    	 
-		         pass.append(Password.lowercase());
+		        pass.append(Password.lowercase());
 		    	 
-		         pass.append(Password.numbers());
+		        pass.append(Password.numbers());
 		    	 
-		         pass.append(Password.symbols());
-		         
+		        pass.append(Password.symbols());
+	    	     
+		        
     	   }
-    	   pass.setLength(size);
     	   
-    	   password =  pass.toString();
-    	   
+    	   password = pass.toString();
+    	    
     	       return password;
-    	  	  }
+      }
+      
+      public void remove_duplicates(StringBuilder password) {
+    	  
+    	  
+    		
+      }
+	    
 }
+
+
+
 
 	
 
