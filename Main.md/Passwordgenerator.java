@@ -17,7 +17,7 @@ public class Passwordgenerator {
 	  }
 	   
 
-      public static  String create_password() {
+      public static  String create_password(int size2) {
     	  
     	    
     	   StringBuilder pass = new StringBuilder();
